@@ -66,12 +66,12 @@
 		// Off-Canvas Navigation.
 
 			// Navigation Button.
-				$(
-					'<div id="navButton">' +
-						'<a href="#navPanel" class="toggle"></a>' +
-					'</div>'
-				)
-					.appendTo($body);
+				// $(
+				// 	'<div id="navButton">' +
+				// 		'<a href="#navPanel" class="toggle"></a>' +
+				// 	'</div>'
+				// )
+				// 	.appendTo($body);
 
 			// Navigation Panel.
 				$(
