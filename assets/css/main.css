@@ -2666,7 +2666,11 @@
 			.timestamp {
 				display: block;
 				text-align: center;
-			}
+      }
+      
+      #mission {
+        margin: auto 5em;
+      }
 
 		/* Footer */
 
@@ -2721,6 +2725,10 @@
       
       #logo {
         width: 15em;
+      }
+
+      #mission {
+        margin: auto;
       }
 
 		/* Section/Article */

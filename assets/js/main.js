@@ -111,7 +111,7 @@
 					rightLimit,
 					itemWidth,
 					reelWidth,
-					timerId;
+          timerId;
 
 				// Items.
 					if (settings.carousels.fadeIn) {
