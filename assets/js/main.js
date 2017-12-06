@@ -23,7 +23,17 @@
 		narrow: '(max-width: 960px)',
 		narrower: '(max-width: 840px)',
 		mobile: '(max-width: 736px)'
-	});
+  });
+  
+  $(function() {
+    let nav = $('nav');
+    $(window).scroll(function() {
+      if($(window).scrollTop() > 0) {
+        nav.addClass('animateMe');
+      }
+    });
+    return false;
+  });
 
 	$(function() {
 
